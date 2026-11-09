@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Generated data and model artifacts
+storage/
+*.parquet
+*.csv
+*.pkl
+*.joblib
+
+# Spark
+spark-warehouse/
+metastore_db/
+*.checkpoint/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
